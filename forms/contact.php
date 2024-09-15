@@ -1,4 +1,7 @@
 <?php
+  header("Access-Control-Allow-Origin: *");
+  header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+
   $receiving_email_address = 'kohlim15@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
